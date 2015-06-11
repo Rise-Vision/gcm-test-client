@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "GCM Test Client",
+  "version": "0.0.1",
+  "minimum_chrome_version": "41",
+  "app": {
+    "background": {
+      "scripts": ["background-script.js"]
+    }
+  },
+  "permissions": [
+    "gcm",
+    "storage"
+  ]
+}
